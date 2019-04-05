@@ -5,6 +5,8 @@
 /* Page main */
 
 .page-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
@@ -13,7 +15,9 @@
 /* Compétences */
 
 .competences{
-    flex:2;
+    -webkit-box-flex:2;
+        -ms-flex:2;
+            flex:2;
 }
 .competences h1,
 .competences header {

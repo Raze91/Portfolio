@@ -2,9 +2,6 @@
 /*** CONTACT STYLES ***/
 /**********************/
 
-.contact form{
-}
-
 .contact input,
 .contact textarea {
     width: 100%;
@@ -17,7 +14,8 @@
 }
 
 .contact fieldset {
-    columns: 2;
+    -webkit-columns: 2;
+            columns: 2;
     column-gap: 1rem;
     -webkit-column-gap: 1rem;
     -moz-column-gap: 1rem;
@@ -33,7 +31,8 @@
 
 .contact ul {
     list-style: none;
-    columns: 2;
+    -webkit-columns: 2;
+            columns: 2;
 }
 
 .contact li {

@@ -88,7 +88,8 @@
 
 .contact-content ul {
     list-style: none;
-    columns: 2;
+    -webkit-columns: 2;
+            columns: 2;
 }
 
 .contact-content li {
@@ -111,5 +112,7 @@
     z-index: 1;
 }
 .project-content .glide__slide{
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
