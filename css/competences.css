@@ -50,7 +50,7 @@
 }
 
 .competences tr:not(.first) th {
-    color: #10c9c3;
+    color: #41A232;
     font-weight: bold;
 }
 .competences th,
@@ -96,7 +96,7 @@
 }
 
 .projects h3 {
-    color: #10c9c3;
+    color: #41A232;
     font-size: 1rem;
     font-weight: bold;
 }

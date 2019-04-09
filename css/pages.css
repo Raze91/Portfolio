@@ -18,7 +18,7 @@
     letter-spacing: .1rem;
 }
 .competences-content tr:not(.first) th {
-    color: #10c9c3;
+    color: #41A232;
     font-weight: bold;
 }
 .competences-content th,
@@ -37,7 +37,7 @@
     border-right: .05rem solid #787878;
 }
 
-.competences-content .blue-star,
+.competences-content .green-star,
 .competences-content .grey-star {
     width: 21px;
     height: 21px;
@@ -47,8 +47,8 @@
 .competences-content .grey-star {
     background-image: url(../images/competences/grey-star.png);
 }
-.competences-content .blue-star {
-    background-image: url(../images/competences/blue-star.png);
+.competences-content .green-star {
+    background-image: url(../images/competences/green-star.png);
 }
 
 /**********************/
