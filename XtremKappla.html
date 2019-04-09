@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Portfolio de Sami Hattab - XtremKappla</title>
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="glide/glide.core.min.css">
+    <link rel="stylesheet" href="glide/glide.theme.min.css">
+    <link rel="icon" href="images/template/flavicon-s.ico">
+</head>
+
+<body>
+
+    <nav class="tmp-menu" data-state="closed">
+
+        <a href="index.html" class="home-link">Sami Hattab</a>
+
+        <div class="site-links">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="index.html">Accueil</a>
+            <a href="">Présentation</a>
+            <a href="competences.html">Compétences</a>
+            <a href="Projets.html">Projets</a>
+            <a href="CV_HATTAB_Sami_Alternance.pdf">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </nav>
+
+    <main class="tmp-main">
+
+        <section class="project-content tmp-content">
+
+            <header>
+
+                <h1 class="tmp-title1">XtremKappla</h1>
+                <p>Jeu d'empilement de bloc sur navigateur réalisé en duo avec pour contrainte l'utilisation du leap
+                    motion.</p>
+
+            </header>
+
+            <div class="glide">
+
+                <div class="glide__track" data-glide-el="track">
+                    <div class="glide__slides">
+                        <img src="images/projets/XtremKappla.jpg" alt="Image du projet ???" class="glide__slide">
+                        <img src="images/projets/projet2.jpg" alt="Image du projet ???" class="glide__slide">
+                        <img src="images/projets/projet3.jpg" alt="Image du projet ???" class="glide__slide">
+                    </div>
+                </div>
+
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                </div>
+
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                </div>
+
+            </div>
+
+            <h2 class="tmp-title2">**En cours de développement**</h2>
+
+            <p>**En cours de développement**</p>
+
+
+        </section>
+
+        <aside class="tmp-aside">
+
+            <section class="infos">
+
+                <h2 class="tmp-title2">Qui suis-je ?</h2>
+                <p>
+                    <strong>Sami Hattab</strong>, 19 ans<br>
+                    Habitant à Brétigny sur Orge en Île de France<br>
+                    Étudiant en 2ème année à L’École Multimédia<br>
+                    Développeur front et back-end<br>
+                    Recherche un poste en alternance
+                </p>
+                <a href="CV_HATTAB_Sami_Alternance.pdf" class="tmp-btn-small">Télécharger mon CV</a>
+                <br>
+                <a href="contact.html" class="tmp-btn-small">Me contacter</a>
+
+            </section>
+
+            <section class="projects">
+
+                <h2 class="tmp-title2">Mes derniers projets</h2>
+
+                <h3>XtremKappla</h3>
+                <p>Jeu d'empilement de bloc sur navigateur réalisé en duo avec pour contrainte l'utilisation du leap
+                    motion.</p>
+                <a href="XtremKappla.html">En savoir plus</a>
+
+                <h3>StarJourney</h3>
+                <p>Jeu 3d sur navigateur avec pour contrainte l'utilisation de modèles 3d réalisés lors du module précédent sur le logiciel Cinéma4d.</p>
+                <a href="">En savoir plus</a>
+
+                <h3>**En cours de développement**</h3>
+                <p>**En cours de développement**</p>
+                <a href="">En savoir plus</a>
+
+            </section>
+
+        </aside>
+
+    </main>
+
+    <footer class="tmp-footer">
+
+        <section class="contact">
+            <h1>Sami Hattab</h1>
+            <a href="mailto:hattab_sami@yahoo.fr">hattab_sami@yahoo.fr</a><br>
+            <a href="tel:+33674707163">06 74 70 71 63</a><br>
+            <a href="https://www.linkedin.com/in/sami-hattab-b4a379175/">Suivez-moi sur
+                <strong>Linkedin</strong></a><br>
+            <a href="https://github.com/Raze91">Suivez-moi sur <strong>Github</strong></a>
+        </section>
+
+        <nav class="menu">
+            <h2>Menu</h2>
+            <div class="links">
+                <a href="index.html">Accueil</a><br>
+                <a href="">Présentation</a><br>
+                <a href="competences.html">Compétences</a><br>
+                <a href="Projets.html">Projets</a><br>
+                <a href="CV_HATTAB_Sami_Alternance.pdf">CV</a><br>
+                <a href="contact.html">Contact</a><br>
+                <a href="">Mentions légales</a>
+            </div>
+        </nav>
+
+    </footer>
+
+    <!-- Script de la bascule du menu -->
+    <script src="scripts/menu.js"></script>
+    <!-- Script Glide JS-->
+    <script src="glide/glide.min.js"></script>
+    <!-- Intialisation Glide JS-->
+    <script>
+        new Glide('.glide', {
+            type: 'carousel',
+            perView: 1,
+            autoplay: 1000
+        }).mount()
+    </script>
+
+</body>
+
+</html>
