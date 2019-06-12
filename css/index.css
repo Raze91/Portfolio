@@ -121,7 +121,7 @@ header .text .tmp-btn:first-child {
 /* Headings */
 
 .headings {
-    background-color: rgb(65, 162, 50);
+    background-color: #4169e1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -163,7 +163,7 @@ header .text .tmp-btn:first-child {
         padding: 2rem;
     }
     .headings a:nth-child(2) {
-        background-color: #41A232;
+        background-color: rgb(0, 52, 209);
     }
 
     .headings h2 {
@@ -184,7 +184,7 @@ header .text .tmp-btn:first-child {
 @media screen and (min-width:841px) {
 
     .headings a:hover{
-        background-color: #17c646;
+        background-color: rgb(0, 52, 209);
     }
 
     .headings h2 {
@@ -255,7 +255,7 @@ header .text .tmp-btn:first-child {
 }
 
 .last-projects .project h3 {
-    color: rgb(65, 162, 50);
+    color: royalblue;
     font-size: 1.15rem;
     text-transform: uppercase;
     font-family: Montserrat;

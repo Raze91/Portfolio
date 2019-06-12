@@ -18,7 +18,7 @@
     letter-spacing: .1rem;
 }
 .competences-content tr:not(.first) th {
-    color: #41A232;
+    color: royalblue;
     font-weight: bold;
 }
 .competences-content th,
@@ -48,7 +48,7 @@
     background-image: url(../images/competences/grey-star.png);
 }
 .competences-content .green-star {
-    background-image: url(../images/competences/green-star.png);
+    background-image: url(../images/competences/blue-star.png);
 }
 
 /**********************/
@@ -172,7 +172,7 @@
 }
 
 .all-projects .project h3 {
-    color: rgb(65, 162, 50);
+    color: royalblue;
     font-size: 1.15rem;
     text-transform: uppercase;
     font-family: Montserrat;

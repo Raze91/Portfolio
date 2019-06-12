@@ -147,12 +147,12 @@ a {
     color: #171717;
 }
 a:hover {
-    color: rgb(65, 162, 50);
+    color: royalblue;
 }
 
 .tmp-btn {
     display: inline-block;
-    background-color: rgb(65, 162, 50);
+    background-color: royalblue;
     padding: .9rem 1.6rem; /* 14.4px 25.6px */
     font-family: Montserrat;
     font-size: 0.85rem; /* 13.6px */
@@ -165,7 +165,7 @@ a:hover {
 }
 
 .tmp-btn:hover{
-    background-color: #17c646;
+    background-color: rgb(0, 52, 209);
     -webkit-box-shadow: 0 0 .95rem rgba(23,23,23,.1);
             box-shadow: 0 0 .95rem rgba(23,23,23,.1);
     color: white;
@@ -173,7 +173,7 @@ a:hover {
 
 .tmp-btn-small {
     display: inline-block;
-    background-color: rgb(65, 162, 50);
+    background-color: royalblue;
     padding: .7rem 1.15rem;
     font-family: Montserrat;
     font-size: 0.75rem;
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .tmp-btn-small:hover{
-    background-color: #17c646;
+    background-color: rgb(0, 52, 209);
     -webkit-box-shadow: 0 0 .8rem rgba(23,23,23,.1);
             box-shadow: 0 0 .8rem rgba(23,23,23,.1);
     color: white;
@@ -246,11 +246,11 @@ strong {
 }
 
 .tmp-menu .site-links a:hover {
-    color: #17c646;
+    color: rgb(0, 52, 209);
 }
 
 .tmp-menu .site-links a.active {
-    color: #41A232;
+    color: royalblue;
 }
 
 .tmp-menu .burger {
@@ -372,7 +372,7 @@ strong {
 }
 
 .tmp-footer a:hover{
-    color: rgb(65, 162, 50);
+    color: rgb(0, 52, 209);
 }
 
 .tmp-footer .contact a {
@@ -385,28 +385,28 @@ strong {
     background-image: url(../images/template/mail.png);
 }
 .tmp-footer .contact a:nth-of-type(1):hover{
-    background-image: url(../images/template/Picto_Mail_hover_vert.png);
+    background-image: url(../images/template/mail-hover_bleu.png);
 }
 
 .tmp-footer .contact a:nth-of-type(2) {
     background-image: url(../images/template/phone.png);
 }
 .tmp-footer .contact a:nth-of-type(2):hover{
-    background-image: url(../images/template/picto_telephone_hover_vert.png);
+    background-image: url(../images/template/phone-hover_bleu.png);
 }
 
 .tmp-footer .contact a:nth-of-type(3) {
     background-image: url(../images/template/linkedin.png);
 }
 .tmp-footer .contact a:nth-of-type(3):hover{
-    background-image: url(../images/template/linkedin_hover_vert.png);
+    background-image: url(../images/template/linkedin-hover_bleu.png);
 }
 
 .tmp-footer .contact a:nth-of-type(4) {
     background-image: url(../images/template/github.png);
 }
 .tmp-footer .contact a:nth-of-type(4):hover{
-    background-image: url(../images/template/picto_GitHub_hover_vert.png);
+    background-image: url(../images/template/github-hover_bleu.png);
 }
 
 .tmp-footer strong {
@@ -490,7 +490,7 @@ strong {
 }
 
 .tmp-aside .projects h3 {
-    color: rgb(65, 162, 50);
+    color: royalblue;
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: .25rem;
