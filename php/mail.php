@@ -1,4 +1,5 @@
 <?php
+session_start();
     $alert = 'Email envoyé';
 if(empty($_POST['prenom']) || empty($_POST['nom']) || empty($_POST['mail']) || empty($_POST['phone']) || empty($_POST['sujet']) || empty($_POST['message'])) {
     // echo('Veuillez remplir le formulaire avant d\'envoyer');
@@ -21,9 +22,9 @@ if(empty($_POST['prenom']) || empty($_POST['nom']) || empty($_POST['mail']) || e
      
     mail('hattab_sami@yahoo.fr',$sujet,$message_final);
 
-    echo $alert;
     
 }
+$_SESSION['alert'] = $alert;
 
 header('Location: ../contact.php'); 
 ?>

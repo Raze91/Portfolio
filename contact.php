@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -35,7 +38,7 @@
         <section class="contact-content tmp-content">
 
             <header>
-
+                <?php echo $_SESSION['alert'] ?>
                 <h1 class="tmp-title1">Contact</h1>
                 <p>N'hésitez pas à m'envoyer un petit message grâce à ce formulaire !</p>
 
