@@ -38,7 +38,15 @@ session_start();
         <section class="contact-content tmp-content">
 
             <header>
-                <?php echo $_SESSION['alert'] ?>
+                <?php if($_SESSION['alert']){
+                    if($_SESSION['alert'] == true) {
+                        echo '<div class="error">Erreur</div>';
+                    } else {
+                        echo '<div class="success">Success</div>';
+                    }
+                } else {
+                    echo 'formulaire non rempli';
+                } ?>
                 <h1 class="tmp-title1">Contact</h1>
                 <p>N'hésitez pas à m'envoyer un petit message grâce à ce formulaire !</p>
 
