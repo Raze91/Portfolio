@@ -1,10 +1,10 @@
 <?php
-$prenom = $_POST['prenom'] ;
-$nom = $_POST['nom'] ;
-$mail = $_POST['mail'] ;
-$phone = $_POST['phone'] ;
-$sujet = $_POST['sujet'] ;
-$message = $_POST['message'];
+$prenom = strip_tags(htmlspecialchars($_POST['prenom'])) ;
+$nom = strip_tags(htmlspecialchars($_POST['nom'])) ;
+$mail = strip_tags(htmlspecialchars($_POST['mail'])) ;
+$phone = strip_tags(htmlspecialchars($_POST['phone'])) ;
+$sujet = strip_tags(htmlspecialchars($_POST['sujet'])) ;
+$message = strip_tags(htmlspecialchars($_POST['message'])) ;
 
 $message_final = "De la part de : " .$prenom . $nom." < " .$mail. " > \n\n";
 $message_final .= "Numéro de téléphone : " .$phone." \n\n\n";
