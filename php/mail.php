@@ -25,5 +25,5 @@ if(empty($_POST['prenom']) || empty($_POST['nom']) || empty($_POST['mail']) || e
     
 }
 
-header('Location: contact.php'); 
+header('Location: ../contact.php'); 
 ?>
