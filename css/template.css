@@ -539,3 +539,11 @@ strong {
     font-weight: bold;
     color: red;
 }
+
+.error {
+    background-color: red;
+}
+
+.success {
+    background-color: greenyellow;
+}
