@@ -6,9 +6,9 @@ $phone = $_POST['phone'] ;
 $sujet = $_POST['sujet'] ;
 $message = $_POST['message'];
 
-$message_final = `De la part de : $prenom $nom <$mail>\n
-Numéro de téléphone : $phone \n
-Message : $message`
+$message_final = "De la part de : " .$prenom + $nom." <" .$mail. "> \n
+Numéro de téléphone : " .$phone." \n
+Message : ".$message."\"";
  
 mail('hattab_sami@yahoo.fr',$sujet,$message_final);
  
