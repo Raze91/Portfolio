@@ -15,8 +15,8 @@ $message_final .= "Message : ".$message."\"";
 mail('hattab_sami@yahoo.fr',$sujet,$message_final);
  
 
-echo( "Votre nom: <b>".$nom."</b>\r" ) ;
-echo( "Votre prénom: <b>".$prenom."</b>\r" ) ;
+echo( "Votre nom: <b>".$nom."</b> rnrn" ) ;
+echo( "Votre prénom: <b>".$prenom."</b> rnrn" ) ;
 echo( "Votre mail: <b>".$mail."</b>\r" ) ;
 echo( "Votre numéro de télephone: <b>".$phone."</b>\r" ) ;
 echo( "Sujet de votre message: <b>".$sujet."</b>\r" ) ;
