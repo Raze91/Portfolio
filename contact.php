@@ -152,4 +152,5 @@ session_start();
     <script src="scripts/menu.js"></script>
     
 </body>
+<?php unset($_SESSION['alert']); ?>
 </html>
