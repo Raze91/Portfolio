@@ -46,14 +46,14 @@
             <form name="formulaire" action="php/mail.php" method="POST" enctype="multipart/form-data">
 
                 <fieldset>
-                    <input type="text" placeholder="Prénom" id="prenom" name="prenom">
-                    <input type="text" placeholder="Nom" id="nom" name="nom">
-                    <input type="email" placeholder="Adresse email" id="mail" name="mail">
-                    <input type="phone" placeholder="Téléphone" id="phone" name="phone">
+                    <input type="text" placeholder="Prénom" id="prenom" name="prenom" require>
+                    <input type="text" placeholder="Nom" id="nom" name="nom" require>
+                    <input type="email" placeholder="Adresse email" id="mail" name="mail" require>
+                    <input type="phone" placeholder="Téléphone" id="phone" name="phone" require>
                 </fieldset>
 
-                <input type="text" placeholder="Sujet du message" id="sujet" name="sujet">
-                <textarea rows="10" placeholder="Message" id="message" name="message"></textarea>
+                <input type="text" placeholder="Sujet du message" id="sujet" name="sujet" require>
+                <textarea rows="10" placeholder="Message" id="message" name="message" require></textarea>
 
                 <input type="submit" class="tmp-btn" value="Envoyer">
                 
