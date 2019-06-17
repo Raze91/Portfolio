@@ -1,9 +1,9 @@
 <?php
 session_start();
-    $alert = false;
+    $alert = '0';
 if(empty($_POST['prenom']) || empty($_POST['nom']) || empty($_POST['mail']) || empty($_POST['phone']) || empty($_POST['sujet']) || empty($_POST['message'])) {
     // echo('Veuillez remplir le formulaire avant d\'envoyer');
-    $alert = true;
+    $alert = '1';
     
 } else {
 
