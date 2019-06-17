@@ -45,7 +45,7 @@ session_start();
                     } else {
                         echo '<div class="success">Success</div>';
                     }
-                } ?>
+                ?>
 
                 <h1 class="tmp-title1">Contact</h1>
                 <p>N'hésitez pas à m'envoyer un petit message grâce à ce formulaire !</p>
