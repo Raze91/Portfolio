@@ -28,7 +28,7 @@ session_start();
             <a href="competences.html">Compétences</a>
             <a href="Projets.html">Projets</a>
             <a href="CV_HATTAB_Sami_Alternance.pdf" target="_blank">CV</a>
-            <a href="contact.html" class="active">Contact</a>
+            <a href="contact.php" class="active">Contact</a>
         </div>
 
     </nav>
@@ -41,11 +41,10 @@ session_start();
 
                 <?php
                         if($_SESSION['alert'] == 'error') {
-                            echo '<div class="error">Erreur</div>';
+                            echo '<div class="error">❌ Veuillez remplir toute les cases du formulaire avant d\'envoyer.</div>';
                         } else if($_SESSION['alert'] == 'success'){
-                            echo '<div class="success">Success</div>';
-                        }
-                        
+                            echo '<div class="success">✔ Message bien envoyé.</div>';
+                        }       
                 ?>
 
                 <h1 class="tmp-title1">Contact</h1>
@@ -97,7 +96,7 @@ session_start();
                 </p>
                 <a href="CV_HATTAB_Sami_Alternance.pdf" class="tmp-btn-small" target="_blank">Télécharger mon CV</a>
                 <br>
-                <a href="contact.html" class="tmp-btn-small">Me contacter</a>
+                <a href="contact.php" class="tmp-btn-small">Me contacter</a>
 
             </section>
 
@@ -141,7 +140,7 @@ session_start();
                 <a href="competences.html">Compétences</a><br>
                 <a href="projet.html">Projets</a><br>
                 <a href="CV_HATTAB_Sami_Alternance.pdf" target="_blank">CV</a><br>
-                <a href="contact.html">Contact</a><br>
+                <a href="contact.php">Contact</a><br>
                 <a href="">Mentions légales</a>
             </div>
         </nav>

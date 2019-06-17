@@ -541,9 +541,11 @@ strong {
 }
 
 .error {
-    background-color: red;
+    color: red;
+    font-weight: bold;
 }
 
 .success {
-    background-color: greenyellow;
+    color: greenyellow;
+    font-weight: bold;
 }
