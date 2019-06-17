@@ -3,6 +3,7 @@
 if(empty($_POST['prenom']) || empty($_POST['nom']) || empty($_POST['mail']) || empty($_POST['phone']) || empty($_POST['sujet']) || empty($_POST['message'])) {
     // echo('Veuillez remplir le formulaire avant d\'envoyer');
     $alert = 'Veuillez remplir toute les cases du formulaire avant d\'envoyer';
+    echo $alert;
 } else {
 
     $prenom = strip_tags(htmlspecialchars($_POST['prenom'])) ;
