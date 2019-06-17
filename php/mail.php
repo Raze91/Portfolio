@@ -12,7 +12,7 @@ $message_final .= "Message : ".$message."\"";
 
 // $message_final = "De la part de :" .$prenom. " " .$nom. "\n Message :" .$message;
  
-mail('hattab_sami@yahoo.fr',$sujet,$message_final);
+mail('hattab_sami@yahoo.fr',$sujet,strip_tags(htmlspecialchars($message_final)));
  
 
 echo( "Votre nom: <b>".$nom."</b> <br>" ) ;
