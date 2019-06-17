@@ -530,3 +530,12 @@ strong {
     width: auto; /* pour IE */
     height: auto; /* pour IE */ -ms-interpolation-mode: bicubic; /* lissage pour IE */
 }
+
+.pres-p {
+    line-height: 1.5rem;
+}
+
+.warning {
+    font-weight: bold;
+    color: red;
+}
