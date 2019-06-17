@@ -40,9 +40,9 @@ session_start();
             <header>
 
                 <?php
-                        if($_SESSION['alert'] == '1') {
+                        if($_SESSION['alert'] == 'error') {
                             echo '<div class="error">Erreur</div>';
-                        } else if($_SESSION['alert'] == '0'){
+                        } else if($_SESSION['alert'] == 'success'){
                             echo '<div class="success">Success</div>';
                         }
                         
