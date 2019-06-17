@@ -39,12 +39,15 @@ session_start();
 
             <header>
 
-                <?php 
-                    if($_SESSION['alert'] == true) {
-                        echo '<div class="error">Erreur</div>';
-                    } else {
-                        echo '<div class="success">Success</div>';
-                    }
+                <?php if(isset($_SESSION['alert'])){
+                        if($_SESSION['alert'] == true) {
+                            echo '<div class="error">Erreur</div>';
+                        } else {
+                            echo '<div class="success">Success</div>';
+                        }
+                        } else {
+                            echo 'formulaire non rempli';
+                    } 
                 ?>
 
                 <h1 class="tmp-title1">Contact</h1>
