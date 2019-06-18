@@ -27,9 +27,10 @@ if(empty($_POST['prenom']) ||
      
     $to = 'hattab_sami@yahoo.fr'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
     $subject = "Website Contact Form:  $prenom"." "."$nom";
-    $body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $prenom"." "." $nom\n\nEmail: $mail\n\nPhone: $phone\n\nMessage:\n$message";
+    $body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $prenom"." "." $nom\n\nEmail: $mail\n\nPhone: $phone\n\nMessage:\n\n$message";
     $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-    $headers .= "Reply-To: $mail";   
+    $headers .= "Reply-To: $mail";
+    
     mail($to,$subject,$body,$headers);
 
     // mail('hattab_sami@yahoo.fr',$sujet,$message_final);
