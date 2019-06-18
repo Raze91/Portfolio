@@ -17,7 +17,7 @@ if(empty($_POST['prenom']) ||
     $mail = strip_tags(htmlspecialchars($_POST['mail'])) ;
     $phone = strip_tags(htmlspecialchars($_POST['phone'])) ;
     $sujet = strip_tags(htmlspecialchars($_POST['sujet'])) ;
-    $message = htmlspecialchars(utf8_decode($_POST['message'])) ;
+    $message = strip_tags(utf8_decode($_POST['message'])) ;
     
     // $message_final = $prenom." ".$nom." < " .$mail. " > \n\n";
     // $message_final .= $phone."\n\n\n";
