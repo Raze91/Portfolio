@@ -18,10 +18,11 @@ if(empty($_POST['prenom']) ||
     $phone = strip_tags(htmlspecialchars($_POST['phone'])) ;
     $sujet = strip_tags(htmlspecialchars($_POST['sujet'])) ;
     $message = strip_tags(htmlspecialchars($_POST['message'])) ;
+    $message = utf8_decode($message);
     
-    $message_final = $prenom." ".$nom." < " .$mail. " > \n\n";
-    $message_final .= $phone."\n\n\n";
-    $message_final .= $message."\"";
+    // $message_final = $prenom." ".$nom." < " .$mail. " > \n\n";
+    // $message_final .= $phone."\n\n\n";
+    // $message_final .= $message."\"";
     
      
     $to = 'hattab_sami@yahoo.fr'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
