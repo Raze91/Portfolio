@@ -12,11 +12,11 @@ if(empty($_POST['prenom']) ||
     
 } else {
 
-    $prenom = strip_tags(htmlspecialchars($_POST['prenom'])) ;
-    $nom = strip_tags(htmlspecialchars($_POST['nom'])) ;
-    $mail = strip_tags(htmlspecialchars($_POST['mail'])) ;
-    $phone = strip_tags(htmlspecialchars($_POST['phone'])) ;
-    $sujet = strip_tags(htmlspecialchars($_POST['sujet'])) ;
+    $prenom = strip_tags(utf8_decode($_POST['prenom'])) ;
+    $nom = strip_tags(utf8_decode($_POST['nom'])) ;
+    $mail = strip_tags(utf8_decode($_POST['mail'])) ;
+    $phone = strip_tags(utf8_decode($_POST['phone'])) ;
+    $sujet = strip_tags(utf8_decode($_POST['sujet'])) ;
     $message = strip_tags(utf8_decode($_POST['message'])) ;
     
     // $message_final = $prenom." ".$nom." < " .$mail. " > \n\n";
