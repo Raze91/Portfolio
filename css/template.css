@@ -546,6 +546,6 @@ strong {
 }
 
 .success {
-    color: rgb(18, 113, 18);
+    color: green;
     font-weight: bold;
 }
