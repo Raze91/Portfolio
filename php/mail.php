@@ -17,8 +17,7 @@ if(empty($_POST['prenom']) ||
     $mail = strip_tags(htmlspecialchars($_POST['mail'])) ;
     $phone = strip_tags(htmlspecialchars($_POST['phone'])) ;
     $sujet = strip_tags(htmlspecialchars($_POST['sujet'])) ;
-    $message = strip_tags(htmlspecialchars($_POST['message'])) ;
-    $message = utf8_decode($message);
+    $message = strip_tags(htmlspecialchars(utf8_decode($_POST['message']))) ;
     
     // $message_final = $prenom." ".$nom." < " .$mail. " > \n\n";
     // $message_final .= $phone."\n\n\n";
@@ -30,7 +29,7 @@ if(empty($_POST['prenom']) ||
     $body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $prenom"." "." $nom\n\nEmail: $mail\n\nPhone: $phone\n\nMessage:\n\n$message";
     $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
     $headers .= "Reply-To: $mail";
-    
+
     mail($to,$subject,$body,$headers);
 
     // mail('hattab_sami@yahoo.fr',$sujet,$message_final);
