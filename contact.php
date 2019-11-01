@@ -88,9 +88,9 @@ session_start();
 
                 <h2 class="tmp-title2">Qui suis-je ?</h2>
                 <p>
-                    <strong>Sami Hattab</strong>, 19 ans<br>
+                    <strong>Sami Hattab</strong>, 20 ans<br>
                     Habitant à Brétigny sur Orge en Île de France<br>
-                    Étudiant en 2ème année à L’École Multimédia<br>
+                    Étudiant en 3ème année à L’École Multimédia<br>
                     Développeur front-end<br>
                     Recherche un poste en alternance
                 </p>
